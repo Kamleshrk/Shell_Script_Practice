@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -e "Please Type File Name: \c"
+read -r file
+touch /home/ktk/sh/$file.sh
+echo '#!/bin/bash' > /home/ktk/sh/$file.sh
+echo 'Purpose:' >> /home/ktk/sh/$file.sh
+echo 'Version:' >> /home/ktk/sh/$file.sh
+
