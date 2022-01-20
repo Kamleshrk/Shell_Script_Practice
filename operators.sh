@@ -22,3 +22,14 @@ echo $var
 var=$((var+=3))
 echo "$var"
 
+############################
+echo "decrements"
+var1=4
+echo "$var1"
+var1=$((var1-=4))
+echo "$var1"
+
+echo $var1
+var1=$((var1-=3))
+echo "$var1"
+
