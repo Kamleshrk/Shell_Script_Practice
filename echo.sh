@@ -15,3 +15,14 @@ echo -n "hello ECS" ##-N stand for no new lines
 echo "test multiline comments " 
 #hello you can you <<a for start cnmts & a for close cmd 
 cmnt
+
+##################################################
+echo -e "\n##################################################"
+
+VAR=$(cat<<'END'
+here we testing
+some  multi line 
+data For testing
+END
+)
+echo "$VAR"  ##cat here used for echo long txt & line content 

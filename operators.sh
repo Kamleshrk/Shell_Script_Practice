@@ -33,3 +33,11 @@ echo $var1
 var1=$((var1-=3))
 echo "$var1"
 
+#############################
+
+test="hello"
+test2="how are you?"
+test3="Krk"
+
+test4="${test} ${test2} ${test3}"
+echo "$test4"                ##call all variable in one variable 
